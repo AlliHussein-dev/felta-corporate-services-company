@@ -17,7 +17,14 @@ import {
   X,
 } from "lucide-react";
 
-const NAV = [
+type NavItem = {
+  to: string;
+  label: string;
+  icon: typeof LayoutDashboard;
+  exact?: boolean;
+};
+
+const NAV: NavItem[] = [
   { to: "/portal", label: "Dashboard", icon: LayoutDashboard, exact: true },
   { to: "/portal/companies", label: "My Companies", icon: Building2 },
   { to: "/portal/documents", label: "Documents", icon: FolderLock },
@@ -28,7 +35,7 @@ const NAV = [
   { to: "/portal/messages", label: "Messages", icon: MessagesSquare },
   { to: "/portal/insights", label: "Insights", icon: BookOpen },
   { to: "/portal/profile", label: "Profile & Settings", icon: UserCog },
-] as const;
+];
 
 export function PortalShell({ children }: { children: ReactNode }) {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
@@ -59,7 +66,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
               return (
                 <li key={item.to}>
                   <Link
-                    to={item.to}
+                    to={item.to as string}
                     className={`group flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm transition-all ${
                       active
                         ? "bg-primary/10 text-primary"
@@ -100,7 +107,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
                   return (
                     <li key={item.to}>
                       <Link
-                        to={item.to}
+                        to={item.to as string}
                         onClick={() => setOpen(false)}
                         className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm ${
                           active ? "bg-primary/10 text-primary" : "text-foreground/80"
