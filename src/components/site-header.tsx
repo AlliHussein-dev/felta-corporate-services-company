@@ -61,6 +61,12 @@ export function SiteHeader() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <Link
+            to={"/portal" as string}
+            className="text-sm text-foreground/70 hover:text-primary transition-colors"
+          >
+            Client Portal
+          </Link>
+          <Link
             to="/contact"
             className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm transition-all hover:bg-primary/90"
           >
