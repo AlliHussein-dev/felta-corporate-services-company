@@ -3,6 +3,10 @@ import { Reveal } from "../components/reveal";
 import i1 from "../assets/insight-1.jpg";
 import i2 from "../assets/insight-2.jpg";
 import i3 from "../assets/insight-3.jpg";
+import i4 from "../assets/insight-4.jpg";
+import i5 from "../assets/insight-5.jpg";
+import i6 from "../assets/insight-6.jpg";
+import i7 from "../assets/insight-7.jpg";
 
 export const Route = createFileRoute("/insights")({
   head: () => ({
@@ -21,9 +25,10 @@ const ARTICLES = [
   { img: i1, tag: "Guide", title: "Choosing the right UAE jurisdiction in 2026", read: "8 min read" },
   { img: i2, tag: "Finance", title: "A practical primer on VAT for new UAE companies", read: "6 min read" },
   { img: i3, tag: "Investor", title: "What international investors should know before arriving", read: "5 min read" },
-  { img: i1, tag: "Regulatory", title: "Corporate tax updates: what changes for SMEs", read: "7 min read" },
-  { img: i2, tag: "Operations", title: "Year-end closing without the late nights", read: "4 min read" },
-  { img: i3, tag: "Strategy", title: "Building a holding structure that ages well", read: "9 min read" },
+  { img: i4, tag: "Regulatory", title: "Corporate tax updates: what changes for SMEs", read: "7 min read" },
+  { img: i5, tag: "Operations", title: "Year-end closing without the late nights", read: "4 min read" },
+  { img: i6, tag: "Strategy", title: "Building a holding structure that ages well", read: "9 min read" },
+  { img: i7, tag: "Advisory", title: "Employee visa quotas and workforce planning for 2026", read: "6 min read" },
 ];
 
 function InsightsPage() {
