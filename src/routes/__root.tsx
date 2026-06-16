@@ -80,14 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "FELTA Corporate Services Provider — Abu Dhabi" },
+      { title: "FELTA Corporate Services Provider Abu Dhabi" },
       {
         name: "description",
         content:
           "FELTA is a premium Abu Dhabi corporate services partner for company formation, residency, accounting, compliance and government relations.",
       },
       { name: "author", content: "FELTA Corporate Services Provider" },
-      { property: "og:title", content: "FELTA Corporate Services Provider — Abu Dhabi" },
+      { property: "og:title", content: "FELTA Corporate Services Provider Abu Dhabi" },
       {
         property: "og:description",
         content:

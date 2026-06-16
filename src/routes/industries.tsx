@@ -10,7 +10,7 @@ import services from "../assets/industry-services.jpg";
 export const Route = createFileRoute("/industries")({
   head: () => ({
     meta: [
-      { title: "Industries — FELTA Abu Dhabi" },
+      { title: "Industries FELTA Abu Dhabi" },
       { name: "description", content: "We serve technology, real estate, healthcare, retail, manufacturing and professional services across the UAE." },
       { property: "og:title", content: "Industries we serve" },
       { property: "og:description", content: "A practice shaped by the diversity of our clients." },

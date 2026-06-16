@@ -6,7 +6,7 @@ import journey2 from "../assets/journey-2.jpg";
 export const Route = createFileRoute("/journeys")({
   head: () => ({
     meta: [
-      { title: "Success Journeys — FELTA Client Stories" },
+      { title: "Success Journeys FELTA Client Stories" },
       { name: "description", content: "Long-form stories of investors, entrepreneurs and family businesses we have helped build and grow in the UAE." },
       { property: "og:title", content: "Success Journeys" },
       { property: "og:description", content: "Client stories from FELTA's advisory practice." },

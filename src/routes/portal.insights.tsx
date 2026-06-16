@@ -13,7 +13,7 @@ export const Route = createFileRoute("/portal/insights")({
 const FEATURED = { tag: "Regulatory", title: "What the 2026 UAE corporate-tax recalibration means for holding structures", read: "9 min read", img: i1 };
 const ARTICLES = [
   { tag: "Compliance", title: "ESR notifications: a quiet revolution in evidence requirements", read: "5 min", img: i2 },
-  { tag: "Growth", title: "From Abu Dhabi mainland to ADGM — when a redomiciliation pays off", read: "7 min", img: i3 },
+  { tag: "Growth", title: "From Abu Dhabi mainland to ADGM when a redomiciliation pays off", read: "7 min", img: i3 },
   { tag: "Tax", title: "Quarterly VAT health check: five reconciliations worth automating", read: "4 min", img: i4 },
   { tag: "Market", title: "Sectoral opportunities in Abu Dhabi's 2026 industrial roadmap", read: "8 min", img: i5 },
 ];

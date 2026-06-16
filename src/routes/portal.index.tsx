@@ -145,8 +145,8 @@ function DashboardHome() {
           <h3 className="font-display text-2xl mt-2">Three matters in motion</h3>
           <ul className="mt-5 space-y-4">
             {[
-              { icon: Building2, title: "Sahel Tech LLC — trade licence renewal", date: "Submitted to DED · awaiting confirmation" },
-              { icon: FileText, title: "Shareholder agreement — Capella Holdings", date: "Drafted · ready for your review" },
+              { icon: Building2, title: "Sahel Tech LLC trade licence renewal", date: "Submitted to DED · awaiting confirmation" },
+              { icon: FileText, title: "Shareholder agreement Capella Holdings", date: "Drafted · ready for your review" },
               { icon: ShieldCheck, title: "VAT quarterly filing", date: "Due 28 days — handled by FELTA" },
             ].map((item) => (
               <li key={item.title} className="flex items-start gap-3">

@@ -7,7 +7,7 @@ import galleryTeam from "../assets/gallery-team.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "The FELTA Story — Abu Dhabi Corporate Advisory" },
+      { title: "The FELTA Story Abu Dhabi Corporate Advisory" },
       { name: "description", content: "Our mission, advisory philosophy and commitment to long-term client relationships in Abu Dhabi and beyond." },
       { property: "og:title", content: "The FELTA Story" },
       { property: "og:description", content: "How FELTA became a trusted Abu Dhabi corporate services partner." },

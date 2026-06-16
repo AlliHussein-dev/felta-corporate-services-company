@@ -21,13 +21,13 @@ import advisor3 from "../assets/advisor-3.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "FELTA — Trusted Corporate Services Partner in Abu Dhabi" },
+      { title: "FELTA Trusted Corporate Services Partner in Abu Dhabi" },
       {
         name: "description",
         content:
           "From company formation and residency to financial management and compliance, FELTA delivers personalized advisory designed around your ambitions in the UAE.",
       },
-      { property: "og:title", content: "FELTA — Trusted Corporate Services Partner in Abu Dhabi" },
+      { property: "og:title", content: "FELTA Trusted Corporate Services Partner in Abu Dhabi" },
       {
         property: "og:description",
         content:
