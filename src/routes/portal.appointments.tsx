@@ -8,7 +8,7 @@ export const Route = createFileRoute("/portal/appointments")({
 const UPCOMING = [
   { title: "Quarterly business review", with: "Khalid Al Hashimi", date: "Tue, 18 Mar · 11:00 GST", mode: "In person", location: "FELTA HQ, Hamdan Street, Abu Dhabi" },
   { title: "ADGM registration walkthrough", with: "Layla Saeed", date: "Thu, 20 Mar · 14:30 GST", mode: "Virtual", location: "Microsoft Teams" },
-  { title: "Trade licence renewal — DED", with: "Government liaison desk", date: "Mon, 24 Mar · 09:00 GST", mode: "Government", location: "DED Service Centre, Mussafah" },
+  { title: "Trade licence renewal DED", with: "Government liaison desk", date: "Mon, 24 Mar · 09:00 GST", mode: "Government", location: "DED Service Centre, Mussafah" },
 ];
 
 function AppointmentsPage() {
