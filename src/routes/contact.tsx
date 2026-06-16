@@ -8,7 +8,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact FELTA — Begin Your UAE Business Journey" },
+      { title: "Contact FELTA Begin Your UAE Business Journey" },
       { name: "description", content: "Arrange a private consultation at our office on Hamdan Street, Al Danah, Abu Dhabi — or speak with a senior advisor remotely." },
       { property: "og:title", content: "Contact FELTA" },
       { property: "og:description", content: "Begin your UAE business journey." },

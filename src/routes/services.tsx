@@ -8,9 +8,9 @@ import serviceGovernment from "../assets/service-government.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Signature Services — FELTA Abu Dhabi" },
+      { title: "Signature Services FELTA Abu Dhabi" },
       { name: "description", content: "Business formation, residency, financial management and government relations — four practices under one advisory standard." },
-      { property: "og:title", content: "Signature Services — FELTA" },
+      { property: "og:title", content: "Signature Services FELTA" },
       { property: "og:description", content: "Four practices. One advisory standard." },
       { property: "og:image", content: serviceFormation },
     ],

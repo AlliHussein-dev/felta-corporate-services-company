@@ -11,7 +11,7 @@ import i7 from "../assets/insight-7.jpg";
 export const Route = createFileRoute("/insights")({
   head: () => ({
     meta: [
-      { title: "Insights & Knowledge Center — FELTA" },
+      { title: "Insights & Knowledge Center FELTA" },
       { name: "description", content: "Editorial guides on UAE business setup, regulatory updates, VAT, and investor strategy from the FELTA advisory team." },
       { property: "og:title", content: "FELTA Insights" },
       { property: "og:description", content: "Editorial guides on UAE business, finance and compliance." },

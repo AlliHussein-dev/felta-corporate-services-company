@@ -4,7 +4,7 @@ import { PortalShell } from "../components/portal-shell";
 export const Route = createFileRoute("/portal")({
   head: () => ({
     meta: [
-      { title: "Private Client Portal — FELTA" },
+      { title: "Private Client Portal FELTA" },
       { name: "description", content: "Your private FELTA concierge workspace." },
       { name: "robots", content: "noindex,nofollow" },
     ],

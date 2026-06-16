@@ -8,7 +8,7 @@ import a4 from "../assets/advisor-4.jpg";
 export const Route = createFileRoute("/advisors")({
   head: () => ({
     meta: [
-      { title: "Meet Our Advisors — FELTA Abu Dhabi" },
+      { title: "Meet Our Advisors FELTA Abu Dhabi" },
       { name: "description", content: "Senior advisors who answer their own phones — meet the people behind FELTA's corporate services practice." },
       { property: "og:title", content: "Meet Our Advisors" },
       { property: "og:description", content: "The people behind FELTA's advisory practice." },
