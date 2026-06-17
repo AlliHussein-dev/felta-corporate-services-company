@@ -22,11 +22,11 @@ export const Route = createFileRoute("/industries")({
 
 const ITEMS = [
   { img: tech, title: "Technology", desc: "From early-stage founders to global platforms, structured for growth and protected by sound governance." },
-  { img: realestate, title: "Real Estate", desc: "Developers, investors and asset managers — entity structures, holding companies and ongoing compliance." },
+  { img: realestate, title: "Real Estate", desc: "Developers, investors and asset managers entity structures, holding companies and ongoing compliance." },
   { img: healthcare, title: "Healthcare", desc: "Clinics, medical groups and health-tech operators, with the regulatory clarity the sector demands." },
   { img: retail, title: "Retail", desc: "Boutique and multi-location retail, from licensing to point-of-sale finance and reporting." },
   { img: manufacturing, title: "Manufacturing", desc: "Industrial groups establishing operations across Mainland and Free Zone jurisdictions." },
-  { img: services, title: "Professional Services", desc: "Advisory, legal and creative firms — set up to operate with elegance and discipline." },
+  { img: services, title: "Professional Services", desc: "Advisory, legal and creative firms set up to operate with elegance and discipline." },
 ];
 
 function IndustriesPage() {

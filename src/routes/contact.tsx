@@ -9,7 +9,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact FELTA Begin Your UAE Business Journey" },
-      { name: "description", content: "Arrange a private consultation at our office on Hamdan Street, Al Danah, Abu Dhabi — or speak with a senior advisor remotely." },
+      { name: "description", content: "Arrange a private consultation at our office on Hamdan Street, Al Danah, Abu Dhabi or speak with a senior advisor remotely." },
       { property: "og:title", content: "Contact FELTA" },
       { property: "og:description", content: "Begin your UAE business journey." },
       { property: "og:image", content: office },
@@ -35,7 +35,7 @@ function ContactPage() {
           {sent ? (
             <div className="py-12 text-center">
               <p className="eyebrow text-primary">Received</p>
-              <h2 className="editorial-h2 mt-4">Thank you — we will be in touch.</h2>
+              <h2 className="editorial-h2 mt-4">Thank you we will be in touch.</h2>
               <p className="mt-6 text-muted-foreground">A senior advisor will reply within one business day.</p>
             </div>
           ) : (

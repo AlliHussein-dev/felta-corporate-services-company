@@ -9,7 +9,7 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Signature Services FELTA Abu Dhabi" },
-      { name: "description", content: "Business formation, residency, financial management and government relations — four practices under one advisory standard." },
+      { name: "description", content: "Business formation, residency, financial management and government relations four practices under one advisory standard." },
       { property: "og:title", content: "Signature Services FELTA" },
       { property: "og:description", content: "Four practices. One advisory standard." },
       { property: "og:image", content: serviceFormation },
@@ -21,16 +21,16 @@ export const Route = createFileRoute("/services")({
 const PRACTICES = [
   { no: "01", title: "Business Formation & Expansion", img: serviceFormation, alt: "Founders reviewing formation documents",
     items: ["Mainland company registration", "Free Zone establishment", "Corporate restructuring", "Branch and subsidiary set-up"],
-    body: "From a first conversation about structure to the moment your trade licence is in your hand, we orchestrate every step — choosing the right jurisdiction, drafting the founding documents, opening banking relationships and aligning shareholders." },
+    body: "From a first conversation about structure to the moment your trade licence is in your hand, we orchestrate every step choosing the right jurisdiction, drafting the founding documents, opening banking relationships and aligning shareholders." },
   { no: "02", title: "Residency & Immigration", img: serviceResidency, alt: "International family receiving residency paperwork",
     items: ["Investor visas", "Executive visas", "Family residency", "Golden Visa advisory"],
-    body: "Residency is rarely just paperwork — it is a life decision. We coordinate with the relevant authorities and handle every form, attestation and translation so you can focus on settling in." },
+    body: "Residency is rarely just paperwork it is a life decision. We coordinate with the relevant authorities and handle every form, attestation and translation so you can focus on settling in." },
   { no: "03", title: "Financial Management & Compliance", img: serviceFinancial, alt: "Financial advisors reviewing reports",
     items: ["Accounting and bookkeeping", "VAT registration and returns", "Audit preparation", "Corporate tax advisory"],
     body: "Numbers tell the truth about a business. Our finance practice keeps your books precise, your filings on time, and your leadership equipped with the clarity needed to make decisions." },
   { no: "04", title: "Government Relations & PRO", img: serviceGovernment, alt: "Government relations officer with UAE licences",
     items: ["Official documentation", "Licensing support", "Regulatory coordination", "Renewals and amendments"],
-    body: "Our PRO team is on first-name terms with the relevant desks. We move quickly, but always quietly — with discretion, respect, and a deep regard for the institutions we work alongside." },
+    body: "Our PRO team is on first-name terms with the relevant desks. We move quickly, but always quietly with discretion, respect, and a deep regard for the institutions we work alongside." },
 ] as const;
 
 function ServicesPage() {
@@ -40,7 +40,7 @@ function ServicesPage() {
         <div className="mx-auto max-w-[1100px] px-6 lg:px-12">
           <Reveal><p className="eyebrow"><span className="rule-divider mr-3" />Signature Services</p></Reveal>
           <Reveal delay={0.05}><h1 className="editorial-h1 mt-6 max-w-4xl">Four practices. One advisory standard.</h1></Reveal>
-          <Reveal delay={0.1}><p className="mt-8 max-w-2xl text-lg text-muted-foreground">Each practice is led by a senior advisor and supported by a small, attentive team. We work as one firm — the engagement does not change hands as you progress.</p></Reveal>
+          <Reveal delay={0.1}><p className="mt-8 max-w-2xl text-lg text-muted-foreground">Each practice is led by a senior advisor and supported by a small, attentive team. We work as one firm the engagement does not change hands as you progress.</p></Reveal>
         </div>
       </section>
 

@@ -46,7 +46,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Sidebar — desktop */}
+      {/* Sidebar desktop */}
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-72 border-r border-border/60 bg-card lg:flex lg:flex-col">
         <div className="flex items-center gap-3 px-7 py-7 border-b border-border/50">
           <span className="flex h-10 w-10 items-center justify-center rounded-full border border-primary/40 text-primary font-display text-xl leading-none">

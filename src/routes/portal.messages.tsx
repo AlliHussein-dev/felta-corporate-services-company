@@ -13,7 +13,7 @@ const INITIAL: Msg[] = [
   { from: "advisor", body: "Good morning, Mr. Ahmed. I've uploaded the revised shareholder agreement to your vault with two annotations.", time: "08:42" },
   { from: "advisor", body: "Would Tuesday at 11:00 GST work for our quarterly review?", time: "08:43" },
   { from: "client", body: "Tuesday works well. Please proceed with the DED submission in parallel.", time: "09:15" },
-  { from: "advisor", body: "Noted — submission is in the queue. I'll confirm the receipt by end of day.", time: "09:18" },
+  { from: "advisor", body: "Noted submission is in the queue. I'll confirm the receipt by end of day.", time: "09:18" },
 ];
 
 function MessagesPage() {
