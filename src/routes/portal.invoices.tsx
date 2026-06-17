@@ -6,10 +6,10 @@ export const Route = createFileRoute("/portal/invoices")({
 });
 
 const INVOICES = [
-  { id: "INV-2025-019", desc: "Trade licence renewal — Sahel Tech LLC", date: "12 Mar 2025", amount: "AED 8,420", status: "Due" },
-  { id: "INV-2025-014", desc: "ADGM registration — Capella Holdings", date: "01 Mar 2025", amount: "AED 21,300", status: "Paid" },
+  { id: "INV-2025-019", desc: "Trade licence renewal Sahel Tech LLC", date: "12 Mar 2025", amount: "AED 8,420", status: "Due" },
+  { id: "INV-2025-014", desc: "ADGM registration Capella Holdings", date: "01 Mar 2025", amount: "AED 21,300", status: "Paid" },
   { id: "INV-2025-009", desc: "Quarterly VAT filing", date: "28 Feb 2025", amount: "AED 1,500", status: "Paid" },
-  { id: "INV-2025-004", desc: "Investor visa processing — 2 applicants", date: "14 Jan 2025", amount: "AED 6,800", status: "Paid" },
+  { id: "INV-2025-004", desc: "Investor visa processing 2 applicants", date: "14 Jan 2025", amount: "AED 6,800", status: "Paid" },
 ];
 
 function InvoicesPage() {

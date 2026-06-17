@@ -8,10 +8,10 @@ export const Route = createFileRoute("/portal/journey")({
 const STEPS = [
   { title: "Initial Consultation", date: "10 Feb 2025", status: "complete", body: "Discovery meeting with Khalid Al Hashimi. Outlined goals for Sahel Tech LLC expansion into ADGM." },
   { title: "Documentation Review", date: "22 Feb 2025", status: "complete", body: "Passports, MoA, board resolutions and supporting evidence reviewed and uploaded to your secure vault." },
-  { title: "Government Submissions", date: "08 Mar 2025", status: "current", body: "Applications filed with DED and ADGM Registration Authority. Tracking confirmation — expected within the week." },
+  { title: "Government Submissions", date: "08 Mar 2025", status: "current", body: "Applications filed with DED and ADGM Registration Authority. Tracking confirmation expected within the week." },
   { title: "Licence Approvals", date: "Expected late March", status: "upcoming", body: "Trade licence and commercial registration issuance. We coordinate notarisation and translations on your behalf." },
-  { title: "Visa Processing", date: "April 2025", status: "upcoming", body: "Investor and employment visas, Emirates ID enrolment, and medical scheduling — fully concierged." },
-  { title: "Ongoing Compliance", date: "Quarterly", status: "upcoming", body: "VAT filings, ESR reports, UBO declarations and annual renewals — handled silently in the background." },
+  { title: "Visa Processing", date: "April 2025", status: "upcoming", body: "Investor and employment visas, Emirates ID enrolment, and medical scheduling fully concierged." },
+  { title: "Ongoing Compliance", date: "Quarterly", status: "upcoming", body: "VAT filings, ESR reports, UBO declarations and annual renewals handled silently in the background." },
 ];
 
 function JourneyPage() {
@@ -21,7 +21,7 @@ function JourneyPage() {
         <p className="eyebrow">Business journey</p>
         <h1 className="editorial-h2 mt-2 text-foreground">Your corporate journey, chapter by chapter</h1>
         <p className="mt-3 max-w-2xl text-muted-foreground">
-          A transparent narrative of every milestone in your engagement with FELTA — past, present and forthcoming.
+          A transparent narrative of every milestone in your engagement with FELTA past, present and forthcoming.
         </p>
       </header>
 

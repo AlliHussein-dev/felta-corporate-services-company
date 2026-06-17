@@ -10,7 +10,7 @@ const QUICK_STATS = [
   { label: "Active companies", value: "3", hint: "Mainland & free zone" },
   { label: "Open milestones", value: "2", hint: "On schedule" },
   { label: "Documents secured", value: "47", hint: "Encrypted vault" },
-  { label: "Next renewal", value: "84 days", hint: "Trade licence — Sahel Tech LLC" },
+  { label: "Next renewal", value: "84 days", hint: "Trade licence Sahel Tech LLC" },
 ];
 
 const TIMELINE = [
@@ -37,7 +37,7 @@ function DashboardHome() {
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
             Your dedicated FELTA corporate advisor is available to assist you. Three matters
-            are progressing this week — all on schedule.
+            are progressing this week all on schedule.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -147,7 +147,7 @@ function DashboardHome() {
             {[
               { icon: Building2, title: "Sahel Tech LLC trade licence renewal", date: "Submitted to DED · awaiting confirmation" },
               { icon: FileText, title: "Shareholder agreement Capella Holdings", date: "Drafted · ready for your review" },
-              { icon: ShieldCheck, title: "VAT quarterly filing", date: "Due 28 days — handled by FELTA" },
+              { icon: ShieldCheck, title: "VAT quarterly filing", date: "Due 28 days handled by FELTA" },
             ].map((item) => (
               <li key={item.title} className="flex items-start gap-3">
                 <span className="mt-0.5 flex h-9 w-9 items-center justify-center rounded-full bg-secondary">
@@ -167,7 +167,7 @@ function DashboardHome() {
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
             "Welcome back, Mr. Ahmed. I've reviewed the updated draft of the Capella shareholder
             agreement and added two comments for your consideration. The DED renewal is on
-            track — I expect confirmation within the week. Please let me know if Tuesday at
+            track I expect confirmation within the week. Please let me know if Tuesday at
             11:00 GST works for our quarterly review."
           </p>
           <Link to={"/portal/messages" as string} className="mt-6 inline-flex items-center gap-1 text-sm text-primary">

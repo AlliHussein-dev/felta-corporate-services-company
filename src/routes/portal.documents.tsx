@@ -15,11 +15,11 @@ const CATEGORIES = [
 ];
 
 const FILES = [
-  { name: "Sahel Tech LLC — Trade Licence 2025.pdf", category: "Trade Licences", size: "412 KB", date: "12 Mar 2025", expires: "12 Mar 2026", warning: true },
-  { name: "Ahmed Al Mansoori — Passport (UAE).pdf", category: "Passports", size: "1.2 MB", date: "04 Jan 2025", expires: "—" },
-  { name: "Capella Holdings — Shareholder Agreement.pdf", category: "Shareholder Agreements", size: "780 KB", date: "08 Sep 2024", expires: "—" },
-  { name: "VAT Quarterly Return Q1 2025.pdf", category: "Financial Statements", size: "212 KB", date: "28 Apr 2025", expires: "—" },
-  { name: "MOIAT — Industrial Activity Approval.pdf", category: "Government Certificates", size: "326 KB", date: "17 Feb 2025", expires: "17 Feb 2027" },
+  { name: "Sahel Tech LLC Trade Licence 2025.pdf", category: "Trade Licences", size: "412 KB", date: "12 Mar 2025", expires: "12 Mar 2026", warning: true },
+  { name: "Ahmed Al Mansoori Passport (UAE).pdf", category: "Passports", size: "1.2 MB", date: "04 Jan 2025", expires: " " },
+  { name: "Capella Holdings Shareholder Agreement.pdf", category: "Shareholder Agreements", size: "780 KB", date: "08 Sep 2024", expires: " " },
+  { name: "VAT Quarterly Return Q1 2025.pdf", category: "Financial Statements", size: "212 KB", date: "28 Apr 2025", expires: " " },
+  { name: "MOIAT Industrial Activity Approval.pdf", category: "Government Certificates", size: "326 KB", date: "17 Feb 2025", expires: "17 Feb 2027" },
 ];
 
 function DocumentsPage() {

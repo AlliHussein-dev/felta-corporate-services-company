@@ -31,8 +31,8 @@ const COMPANIES = [
     status: "In Setup",
     activity: "Boutique Hospitality Operator",
     jurisdiction: "Twofour54 Free Zone",
-    registered: "Pending — May 2026",
-    renewal: "—",
+    registered: "Pending May 2026",
+    renewal: " ",
     advisor: "Khalid Al Hashimi",
     tone: "highlight",
   },
@@ -45,7 +45,7 @@ function CompaniesPage() {
         <p className="eyebrow">Portfolio</p>
         <h1 className="editorial-h2 mt-2 text-foreground">My business portfolio</h1>
         <p className="mt-3 text-muted-foreground max-w-xl">
-          A consolidated view of every entity FELTA manages on your behalf — across mainland and free zone jurisdictions.
+          A consolidated view of every entity FELTA manages on your behalf across mainland and free zone jurisdictions.
         </p>
       </header>
 

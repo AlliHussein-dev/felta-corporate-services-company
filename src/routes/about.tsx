@@ -34,7 +34,7 @@ function AboutPage() {
 
       <section className="mx-auto max-w-[1100px] grid gap-16 px-6 py-28 lg:grid-cols-2 lg:gap-24 lg:px-12 lg:py-40">
         <Reveal><h2 className="editorial-h2">Our mission</h2></Reveal>
-        <Reveal delay={0.05}><p className="text-lg leading-relaxed text-muted-foreground">To make the experience of building and growing a UAE business feel calm, considered and personal — by being present at every step, not just at the milestones.</p></Reveal>
+        <Reveal delay={0.05}><p className="text-lg leading-relaxed text-muted-foreground">To make the experience of building and growing a UAE business feel calm, considered and personal by being present at every step, not just at the milestones.</p></Reveal>
 
         <Reveal><h2 className="editorial-h2">Advisory philosophy</h2></Reveal>
         <Reveal delay={0.05}><p className="text-lg leading-relaxed text-muted-foreground">We listen before we act. Every engagement begins with a private conversation about ambitions and constraints; only then do we map a path through formation, residency, finance and compliance.</p></Reveal>

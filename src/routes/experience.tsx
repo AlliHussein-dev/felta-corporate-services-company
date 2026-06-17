@@ -6,7 +6,7 @@ export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
       { title: "The FELTA Client Experience" },
-      { name: "description", content: "Six chapters of a long partnership — the FELTA client experience, from private discovery to continuous stewardship." },
+      { name: "description", content: "Six chapters of a long partnership the FELTA client experience, from private discovery to continuous stewardship." },
       { property: "og:title", content: "The FELTA Client Experience" },
       { property: "og:description", content: "How we work with clients, from first conversation to long-term partnership." },
       { property: "og:image", content: galleryHospitality },
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/experience")({
 });
 
 const STEPS = [
-  ["01", "Private Discovery Meeting", "We listen first — to ambitions, constraints and timing. Nothing else."],
+  ["01", "Private Discovery Meeting", "We listen first to ambitions, constraints and timing. Nothing else."],
   ["02", "Strategic Business Planning", "A bespoke roadmap built around your structure of choice and risk appetite."],
   ["03", "Documentation & Preparation", "Every form, attestation and translation, handled with care and discretion."],
   ["04", "Government Coordination", "Direct liaison with the right desks and authorities, on your behalf."],

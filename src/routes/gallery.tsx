@@ -10,7 +10,7 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Office Gallery FELTA Abu Dhabi" },
-      { name: "description", content: "Inside the FELTA offices on Hamdan Street — reception, private consultation rooms and client hospitality." },
+      { name: "description", content: "Inside the FELTA offices on Hamdan Street reception, private consultation rooms and client hospitality." },
       { property: "og:title", content: "Office Gallery" },
       { property: "og:description", content: "A visual tour of the FELTA offices." },
       { property: "og:image", content: g1 },

@@ -24,7 +24,7 @@ function InsightsLounge() {
       <header>
         <p className="eyebrow">Insights lounge</p>
         <h1 className="editorial-h2 mt-2 text-foreground">Curated reading for the FELTA client</h1>
-        <p className="mt-3 max-w-xl text-muted-foreground">Editorial commentary on regulation, growth, tax and the UAE business landscape — written by our advisory team.</p>
+        <p className="mt-3 max-w-xl text-muted-foreground">Editorial commentary on regulation, growth, tax and the UAE business landscape written by our advisory team.</p>
       </header>
 
       <article className="lift-card lift-card-hover overflow-hidden grid md:grid-cols-2">

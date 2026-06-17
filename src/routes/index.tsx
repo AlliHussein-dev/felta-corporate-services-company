@@ -203,7 +203,7 @@ function StoryTeaser() {
           <Reveal delay={0.15}>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
               We do not process documents. We build companies, manage compliance, and
-              steward growth — quietly, attentively, and for the long term.
+              steward growth quietly, attentively, and for the long term.
             </p>
           </Reveal>
           <Reveal delay={0.2}>
@@ -384,14 +384,14 @@ function JourneyTeaser() {
           <Reveal delay={0.05}>
             <h2 className="editorial-h2 mt-6 text-background">
               “FELTA carried us from a first conversation to a fully operating UAE
-              business — and then stayed.”
+              business and then stayed.”
             </h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-background/75">
               A European founder arrived in Abu Dhabi with an ambitious plan and
               limited time. Our team handled the licensing, residency, and bank
-              relationships — and continues to support the company as it scales across
+              relationships and continues to support the company as it scales across
               the GCC.
             </p>
           </Reveal>
@@ -456,7 +456,7 @@ function AdvisorsTeaser() {
 }
 
 const STEPS = [
-  ["01", "Private Discovery Meeting", "We listen first — ambitions, constraints, timeline."],
+  ["01", "Private Discovery Meeting", "We listen first ambitions, constraints, timeline."],
   ["02", "Strategic Business Planning", "A bespoke roadmap built around your structure of choice."],
   ["03", "Documentation & Preparation", "Every form, attestation and translation, handled with care."],
   ["04", "Government Coordination", "Direct liaison with the right desks and authorities."],

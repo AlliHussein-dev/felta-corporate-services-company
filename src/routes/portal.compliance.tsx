@@ -7,8 +7,8 @@ export const Route = createFileRoute("/portal/compliance")({
 
 const ITEMS = [
   { entity: "Sahel Tech LLC", item: "Trade licence renewal", due: "84 days", state: "Upcoming", note: "FELTA will file 21 days before expiry." },
-  { entity: "Capella Holdings", item: "ADGM annual return", due: "212 days", state: "Upcoming", note: "Documentation collected — review in Q3." },
-  { entity: "Sahel Tech LLC", item: "VAT return — Q1 2025", due: "28 days", state: "In Review", note: "Draft prepared by finance team for your approval." },
+  { entity: "Capella Holdings", item: "ADGM annual return", due: "212 days", state: "Upcoming", note: "Documentation collected review in Q3." },
+  { entity: "Sahel Tech LLC", item: "VAT return Q1 2025", due: "28 days", state: "In Review", note: "Draft prepared by finance team for your approval." },
   { entity: "Mr. Ahmed Al Mansoori", item: "Investor visa renewal", due: "146 days", state: "Upcoming", note: "Medical scheduling will commence 60 days out." },
   { entity: "Sahel Tech LLC", item: "ESR notification", due: "Filed", state: "Completed", note: "Submitted to Ministry of Finance · 02 Feb 2025." },
 ];
@@ -25,7 +25,7 @@ function CompliancePage() {
       <header>
         <p className="eyebrow">Business health</p>
         <h1 className="editorial-h2 mt-2 text-foreground">Compliance &amp; renewals</h1>
-        <p className="mt-3 max-w-xl text-muted-foreground">A refined view of every regulatory obligation — quietly monitored on your behalf.</p>
+        <p className="mt-3 max-w-xl text-muted-foreground">A refined view of every regulatory obligation quietly monitored on your behalf.</p>
       </header>
 
       <div className="grid gap-4 md:grid-cols-4">

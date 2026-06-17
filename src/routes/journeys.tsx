@@ -19,7 +19,7 @@ export const Route = createFileRoute("/journeys")({
 const STORIES = [
   { img: journey1, eyebrow: "European Entrepreneur", title: "Establishing a UAE presence in 90 days.",
     challenge: "Entering the UAE market while managing legal, licensing and residency requirements on a tight timeline.",
-    solution: "A dedicated advisor coordinated the full establishment journey — Free Zone selection, founding documents, residency and banking.",
+    solution: "A dedicated advisor coordinated the full establishment journey Free Zone selection, founding documents, residency and banking.",
     outcome: "A successful launch and continued strategic support as the company expanded across the GCC." },
   { img: journey2, eyebrow: "Family-Owned Company", title: "Expansion, oversight, and the next generation.",
     challenge: "Expanding operations across emirates while ensuring long-term compliance and a clean hand-over to the next generation.",
