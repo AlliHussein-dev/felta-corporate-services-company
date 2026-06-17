@@ -204,9 +204,5 @@
 }
 
 @utility rule-divider {
-  display: inline-block;
-  width: 2.5rem;
-  height: 1px;
-  background-color: var(--color-primary);
-  vertical-align: middle;
+  display: none;
 }
