@@ -73,14 +73,19 @@ function ContactPage() {
         </Reveal>
       </section>
 
-      <section className="mx-auto max-w-[1400px] px-6 pb-32 lg:px-12">
+      <section className="mx-auto max-w-[1100px] px-6 pb-32 lg:px-12">
         <Reveal className="overflow-hidden rounded-2xl border border-border">
-          <iframe
-            title="FELTA office location map"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=54.36%2C24.48%2C54.39%2C24.50&amp;layer=mapnik"
-            className="h-[420px] w-full"
-            loading="lazy"
-          />
+          <div className="relative h-[300px] w-full md:h-[360px] lg:h-[400px]">
+            <iframe
+              title="FELTA office location map"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=54.3679%2C24.4833%2C54.3719%2C24.4873&layer=mapnik&marker=24.4853%2C54.3699"
+              className="absolute inset-0 h-full w-full"
+              loading="lazy"
+            />
+            <div className="pointer-events-none absolute bottom-4 left-4 rounded-md bg-background/90 px-3 py-2 text-xs font-medium text-foreground shadow-sm backdrop-blur">
+              Hamdan Street, Al Danah, Zone 1, Abu Dhabi
+            </div>
+          </div>
         </Reveal>
       </section>
     </>
