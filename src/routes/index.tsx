@@ -466,6 +466,32 @@ const STEPS = [
 ] as const;
 
 function ExperienceTimeline() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const isInView = useInView(containerRef, { once: true, amount: 0.3 });
+
+  useEffect(() => {
+    if (!isInView || !containerRef.current) return;
+
+    const isMobile = window.matchMedia("(max-width: 1023px)").matches;
+    if (!isMobile) return;
+
+    const container = containerRef.current;
+    const items = Array.from(container.querySelectorAll("li"));
+    if (items.length === 0) return;
+
+    let current = 0;
+    const interval = setInterval(() => {
+      current = (current + 1) % items.length;
+      items[current].scrollIntoView({
+        behavior: "smooth",
+        inline: "start",
+        block: "nearest",
+      });
+    }, 1800);
+
+    return () => clearInterval(interval);
+  }, [isInView]);
+
   return (
     <section className="bg-secondary/70 py-28 lg:py-40">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
@@ -473,7 +499,10 @@ function ExperienceTimeline() {
           <p className="eyebrow"><span className="rule-divider mr-3" />The FELTA Experience</p>
           <h2 className="editorial-h2 mt-6">Six chapters of a long partnership.</h2>
         </Reveal>
-        <div className="mt-16 overflow-x-auto -mx-6 px-6 lg:mx-0 lg:px-0">
+        <div
+          ref={containerRef}
+          className="mt-16 overflow-x-auto -mx-6 px-6 lg:mx-0 lg:px-0"
+        >
           <ol className="grid min-w-[900px] grid-cols-6 gap-6 lg:min-w-0">
             {STEPS.map(([no, title, desc], i) => (
               <Reveal as="div" delay={i * 0.05} key={no}>
