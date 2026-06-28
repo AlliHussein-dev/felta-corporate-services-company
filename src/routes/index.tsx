@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { useEffect, useRef } from "react";
 import { Reveal } from "../components/reveal";
 import heroAbuDhabi from "../assets/hero-abudhabi.jpg";
 import heroConsultation from "../assets/hero-consultation.jpg";
