@@ -134,10 +134,11 @@ function Hero() {
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
           <Link
-            to="/contact"
-            className="inline-flex items-center gap-2 rounded-full border border-background/40 bg-background/10 px-7 py-3.5 text-sm font-medium text-background backdrop-blur-sm transition-all hover:bg-background/20"
+            to="/portal"
+            className="group inline-flex items-center gap-3 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90"
           >
             Access Client Concierge
+            <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </motion.div>
       </div>
