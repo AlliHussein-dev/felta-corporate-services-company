@@ -1,6 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Lock } from "lucide-react";
 
 const NAV = [
   { to: "/about", label: "The FELTA Story" },
@@ -74,6 +74,15 @@ export function SiteHeader() {
           </Link>
         </div>
 
+        <Link
+          to={"/portal" as string}
+          className="lg:hidden inline-flex h-11 items-center gap-1.5 rounded-full border border-primary/40 bg-background/80 px-3 text-xs font-medium text-primary"
+          aria-label="Client Portal"
+        >
+          <Lock className="h-3.5 w-3.5" />
+          Portal
+        </Link>
+
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
@@ -98,8 +107,15 @@ export function SiteHeader() {
               </Link>
             ))}
             <Link
+              to={"/portal" as string}
+              className="mt-3 inline-flex items-center justify-center gap-2 rounded-full border border-primary/40 px-5 py-3 text-sm font-medium text-primary"
+            >
+              <Lock className="h-4 w-4" />
+              Client Portal
+            </Link>
+            <Link
               to="/contact"
-              className="mt-3 inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-medium text-primary-foreground"
+              className="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-medium text-primary-foreground"
             >
               Book a Consultation
             </Link>
