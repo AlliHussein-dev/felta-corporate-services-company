@@ -529,7 +529,8 @@ function ExperienceTimeline() {
           ref={containerRef}
           className="mt-16 overflow-x-hidden select-none touch-none -mx-6 px-6 lg:mx-0 lg:px-0 lg:overflow-x-visible lg:touch-auto lg:select-text"
         >
-          <ol className="grid min-w-[900px] grid-cols-6 gap-6 lg:min-w-0">
+          <ol className="grid min-w-[308vw] grid-cols-6 gap-4 lg:min-w-0 lg:gap-6">
+
             {STEPS.map(([no, title, desc], i) => (
               <Reveal as="div" delay={i * 0.05} key={no}>
                 <li className="relative pt-6 list-none">
