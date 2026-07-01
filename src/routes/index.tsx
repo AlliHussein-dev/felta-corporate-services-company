@@ -479,17 +479,43 @@ function ExperienceTimeline() {
     const items = Array.from(container.querySelectorAll("li"));
     if (items.length === 0) return;
 
+    const SWIPE_DURATION = 900;
+
+    const easeInOutQuad = (t: number) =>
+      t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+
+    let rafId = 0;
+    const scrollToItem = (index: number) => {
+      const target = items[index];
+      if (!target) return;
+      const targetLeft = target.offsetLeft - container.offsetLeft;
+      const start = container.scrollLeft;
+      const distance = targetLeft - start;
+      const startTime = performance.now();
+
+      const animate = (now: number) => {
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / SWIPE_DURATION, 1);
+        container.scrollLeft = start + distance * easeInOutQuad(progress);
+        if (progress < 1) {
+          rafId = requestAnimationFrame(animate);
+        }
+      };
+      rafId = requestAnimationFrame(animate);
+    };
+
     let current = 0;
+    scrollToItem(current);
+
     const interval = setInterval(() => {
       current = (current + 1) % items.length;
-      items[current].scrollIntoView({
-        behavior: "smooth",
-        inline: "start",
-        block: "nearest",
-      });
+      scrollToItem(current);
     }, 1800);
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      if (rafId) cancelAnimationFrame(rafId);
+    };
   }, [isInView]);
 
   return (
@@ -501,7 +527,7 @@ function ExperienceTimeline() {
         </Reveal>
         <div
           ref={containerRef}
-          className="mt-16 overflow-x-auto -mx-6 px-6 lg:mx-0 lg:px-0"
+          className="mt-16 overflow-x-hidden select-none touch-none -mx-6 px-6 lg:mx-0 lg:px-0 lg:overflow-x-visible lg:touch-auto lg:select-text"
         >
           <ol className="grid min-w-[900px] grid-cols-6 gap-6 lg:min-w-0">
             {STEPS.map(([no, title, desc], i) => (
